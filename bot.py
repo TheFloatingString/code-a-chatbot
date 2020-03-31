@@ -10,6 +10,7 @@ while True:
 
   if "goodbye" in user_response.lower().split(' '):
     print("Goodbye fellow human!")
+    break
 
   elif user_response.lower() == "how are you":
     print("I am doing good")
